@@ -49,6 +49,7 @@ export type InitNotificationsSettings = {
     }
 }
 
+export function myFunction(): any;
 export function initNotification(settings: InitNotificationsSettings): any;
 export function addGeofence(geofence: Geofence, duration: number): any;
 export function addGeofences(geofences: Geofence[], duration: number, failCallback: function): any;
