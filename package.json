@@ -1,6 +1,6 @@
 {
     "name": "ar_geofencing",
-    "version": "0.8.5",
+    "version": "0.8.4",
     "description": "**Attention: This repo is not yet fully tested !**",
     "main": "index.js",
     "scripts": {
