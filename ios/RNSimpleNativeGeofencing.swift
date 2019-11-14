@@ -77,6 +77,11 @@ class RNSimpleNativeGeofencing: RCTEventEmitter, CLLocationManagerDelegate, UNUs
     
     //MARK: -  Public Interface
     
+   @objc(myFunction:)
+    func myFunction() -> Void {
+        print("Test!")
+    }
+
     @objc(initNotification:)
     func initNotification(settings:NSDictionary) -> Void {
         
